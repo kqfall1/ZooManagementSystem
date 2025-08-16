@@ -1,0 +1,367 @@
+{
+  "Name": "JSON_TEST_ZOO",
+  "Habitats": [
+    {
+      "Name": "DRAGON'S DEN",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.Dragon, ZooManagementLib",
+          "Id": 1,
+          "Name": "RONNIE",
+          "Age": 0,
+          "Diet": [
+            6,
+            7,
+            10
+          ],
+          "HungerLevel": 45,
+          "Weight": 37.68
+        },
+        {
+          "$type": "ZooManagementLib.Dragon, ZooManagementLib",
+          "Id": 2,
+          "Name": "RAY",
+          "Age": 4,
+          "Diet": [
+            6,
+            7,
+            10
+          ],
+          "HungerLevel": 35,
+          "Weight": 345.91
+        },
+        {
+          "$type": "ZooManagementLib.Dragon, ZooManagementLib",
+          "Id": 3,
+          "Name": "JENNY",
+          "Age": 6,
+          "Diet": [
+            6,
+            7,
+            10
+          ],
+          "HungerLevel": 76,
+          "Weight": 287.65
+        }
+      ]
+    },
+    {
+      "Name": "GRIZZLY GROVE",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.GrizzlyBear, ZooManagementLib",
+          "Id": 7,
+          "Name": "OTIS",
+          "Age": 8,
+          "Diet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            13,
+            15,
+            17
+          ],
+          "HungerLevel": 33,
+          "Weight": 234.91
+        },
+        {
+          "$type": "ZooManagementLib.GrizzlyBear, ZooManagementLib",
+          "Id": 8,
+          "Name": "JULIA",
+          "Age": 6,
+          "Diet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            13,
+            15,
+            17
+          ],
+          "HungerLevel": 90,
+          "Weight": 201.0
+        },
+        {
+          "$type": "ZooManagementLib.GrizzlyBear, ZooManagementLib",
+          "Id": 9,
+          "Name": "FREDDY",
+          "Age": 2,
+          "Diet": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            13,
+            15,
+            17
+          ],
+          "HungerLevel": 71,
+          "Weight": 187.12
+        }
+      ]
+    },
+    {
+      "Name": "LION' LAIR",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.Lion, ZooManagementLib",
+          "Id": 4,
+          "Name": "SIMBA",
+          "Age": 5,
+          "Diet": [
+            3,
+            5,
+            8
+          ],
+          "HungerLevel": 89,
+          "Weight": 167.81
+        },
+        {
+          "$type": "ZooManagementLib.Lion, ZooManagementLib",
+          "Id": 5,
+          "Name": "SCAR",
+          "Age": 3,
+          "Diet": [
+            3,
+            5,
+            8
+          ],
+          "HungerLevel": 65,
+          "Weight": 176.11
+        },
+        {
+          "$type": "ZooManagementLib.Lion, ZooManagementLib",
+          "Id": 6,
+          "Name": "KELLY",
+          "Age": 3,
+          "Diet": [
+            3,
+            5,
+            8
+          ],
+          "HungerLevel": 21,
+          "Weight": 155.46
+        }
+      ]
+    },
+    {
+      "Name": "AQUALAND",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.Mermaid, ZooManagementLib",
+          "Id": 10,
+          "Name": "MABEL",
+          "Age": 1,
+          "Diet": [
+            12,
+            17,
+            18
+          ],
+          "HungerLevel": 66,
+          "Weight": 57.67
+        },
+        {
+          "$type": "ZooManagementLib.Mermaid, ZooManagementLib",
+          "Id": 11,
+          "Name": "JANET",
+          "Age": 4,
+          "Diet": [
+            12,
+            17,
+            18
+          ],
+          "HungerLevel": 45,
+          "Weight": 61.2
+        },
+        {
+          "$type": "ZooManagementLib.Mermaid, ZooManagementLib",
+          "Id": 12,
+          "Name": "HENRY",
+          "Age": 3,
+          "Diet": [
+            12,
+            17,
+            18
+          ],
+          "HungerLevel": 11,
+          "Weight": 59.81
+        }
+      ]
+    },
+    {
+      "Name": "MONKEY'S PIT",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.Monkey, ZooManagementLib",
+          "Id": 13,
+          "Name": "GEORGE",
+          "Age": 2,
+          "Diet": [
+            0,
+            1,
+            4,
+            9,
+            11,
+            14,
+            19
+          ],
+          "HungerLevel": 98,
+          "Weight": 61.55
+        },
+        {
+          "$type": "ZooManagementLib.Monkey, ZooManagementLib",
+          "Id": 14,
+          "Name": "LARRY",
+          "Age": 4,
+          "Diet": [
+            0,
+            1,
+            4,
+            9,
+            11,
+            14,
+            19
+          ],
+          "HungerLevel": 89,
+          "Weight": 72.31
+        },
+        {
+          "$type": "ZooManagementLib.Monkey, ZooManagementLib",
+          "Id": 15,
+          "Name": "SARAH",
+          "Age": 3,
+          "Diet": [
+            0,
+            1,
+            4,
+            9,
+            11,
+            14,
+            19
+          ],
+          "HungerLevel": 86,
+          "Weight": 54.21
+        }
+      ]
+    },
+    {
+      "Name": "PINK PASTURES",
+      "Occupants": [
+        {
+          "$type": "ZooManagementLib.Unicorn, ZooManagementLib",
+          "Id": 16,
+          "Name": "NELLY",
+          "Age": 7,
+          "Diet": [
+            0,
+            7,
+            16
+          ],
+          "HungerLevel": 32,
+          "Weight": 256.77
+        },
+        {
+          "$type": "ZooManagementLib.Unicorn, ZooManagementLib",
+          "Id": 17,
+          "Name": "DENNIS",
+          "Age": 3,
+          "Diet": [
+            0,
+            7,
+            16
+          ],
+          "HungerLevel": 73,
+          "Weight": 292.13
+        },
+        {
+          "$type": "ZooManagementLib.Unicorn, ZooManagementLib",
+          "Id": 18,
+          "Name": "ALEX",
+          "Age": 0,
+          "Diet": [
+            0,
+            7,
+            16
+          ],
+          "HungerLevel": 78,
+          "Weight": 78.03
+        }
+      ]
+    }
+  ],
+  "Passwords": [
+    "qwerty",
+    "password"
+  ],
+  "Visitors": [
+    {
+      "Id": 1,
+      "Name": "Ron Snell",
+      "Age": 43,
+      "ArrivalTime": "2025-08-15T16:06:26.5168228-04:00",
+      "Email": "rsnell97@hotmail.com",
+      "PhoneNumber": "437-982-1022"
+    },
+    {
+      "Id": 2,
+      "Name": "Henry Davis",
+      "Age": 68,
+      "ArrivalTime": "2025-08-15T16:19:01.9919427-04:00",
+      "Email": "henrydavis@gmail.com",
+      "PhoneNumber": "647-262-8287"
+    },
+    {
+      "Id": 3,
+      "Name": "Janet Mabel",
+      "Age": 53,
+      "ArrivalTime": "2025-08-15T16:19:33.9520981-04:00",
+      "Email": "janmabel@gmail.com",
+      "PhoneNumber": "647-902-9987"
+    },
+    {
+      "Id": 4,
+      "Name": "Jenny Higgins",
+      "Age": 12,
+      "ArrivalTime": "2025-08-15T19:54:55.6449537-04:00",
+      "Email": "",
+      "PhoneNumber": ""
+    },
+    {
+      "Id": 5,
+      "Name": "Kurtis Mane",
+      "Age": 27,
+      "ArrivalTime": "2025-08-15T19:55:18.200204-04:00",
+      "Email": "",
+      "PhoneNumber": "647-262-8272"
+    },
+    {
+      "Id": 6,
+      "Name": "Oliver Mane",
+      "Age": 18,
+      "ArrivalTime": "2025-08-15T19:55:42.7545598-04:00",
+      "Email": "",
+      "PhoneNumber": ""
+    },
+    {
+      "Id": 7,
+      "Name": "Ricky Dames",
+      "Age": 57,
+      "ArrivalTime": "2025-08-15T19:56:04.8549205-04:00",
+      "Email": "rdames987@hotmail.com",
+      "PhoneNumber": ""
+    }
+  ]
+}

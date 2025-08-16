@@ -1,0 +1,12 @@
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\bin\Debug\net8.0\ZooManagementLib.deps.json
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\bin\Debug\net8.0\ZooManagementLib.dll
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\bin\Debug\net8.0\ZooManagementLib.pdb
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.AssemblyInfoInputs.cache
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.AssemblyInfo.cs
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.csproj.CoreCompileInputs.cache
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.dll
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\refint\ZooManagementLib.dll
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.pdb
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ref\ZooManagementLib.dll
+C:\Work\Career\Coding\COMP123-002\QuinnKeenan_301504914_Lab9\ZooManagementLib\obj\Debug\net8.0\ZooManagementLib.csproj.AssemblyReference.cache

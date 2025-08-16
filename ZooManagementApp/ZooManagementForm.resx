@@ -1,0 +1,3546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IntroLoadServiceBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="IntroLoadServiceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="IntroLoadServiceBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IntroLoadServiceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 129</value>
+  </data>
+  <data name="IntroLoadServiceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IntroLoadServiceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="IntroLoadServiceBtn.Text" xml:space="preserve">
+    <value>Load a Service</value>
+  </data>
+  <data name="&gt;&gt;IntroLoadServiceBtn.Name" xml:space="preserve">
+    <value>IntroLoadServiceBtn</value>
+  </data>
+  <data name="&gt;&gt;IntroLoadServiceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IntroLoadServiceBtn.Parent" xml:space="preserve">
+    <value>Intro</value>
+  </data>
+  <data name="&gt;&gt;IntroLoadServiceBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 129</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="IntroCreateNewServiceBtn.Text" xml:space="preserve">
+    <value>Create New Service</value>
+  </data>
+  <data name="&gt;&gt;IntroCreateNewServiceBtn.Name" xml:space="preserve">
+    <value>IntroCreateNewServiceBtn</value>
+  </data>
+  <data name="&gt;&gt;IntroCreateNewServiceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IntroCreateNewServiceBtn.Parent" xml:space="preserve">
+    <value>Intro</value>
+  </data>
+  <data name="&gt;&gt;IntroCreateNewServiceBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IntroTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="IntroTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="IntroTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 130</value>
+  </data>
+  <data name="IntroTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IntroTitleLbl.Text" xml:space="preserve">
+    <value>Welcome to Zoo Management!</value>
+  </data>
+  <data name="IntroTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;IntroTitleLbl.Name" xml:space="preserve">
+    <value>IntroTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;IntroTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IntroTitleLbl.Parent" xml:space="preserve">
+    <value>Intro</value>
+  </data>
+  <data name="&gt;&gt;IntroTitleLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Intro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Intro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 244</value>
+  </data>
+  <data name="Intro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Intro.Name" xml:space="preserve">
+    <value>Intro</value>
+  </data>
+  <data name="&gt;&gt;Intro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Intro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Intro.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 449</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CreateNewServiceBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBackBtn.Name" xml:space="preserve">
+    <value>CreateNewServiceBackBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBackBtn.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBackBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 380</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 66</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CreateNewServiceOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceOutputLbl.Name" xml:space="preserve">
+    <value>CreateNewServiceOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceOutputLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceOutputLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateNewServiceBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewServiceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServiceBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServiceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 452</value>
+  </data>
+  <data name="CreateNewServiceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewServiceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CreateNewServiceBtn.Text" xml:space="preserve">
+    <value>Create a Service</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBtn.Name" xml:space="preserve">
+    <value>CreateNewServiceBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBtn.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 325</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordInput.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 35</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordInput.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordInput.Name" xml:space="preserve">
+    <value>CreateNewServiceConfirmPasswordInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordInput.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 325</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 29</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CreateNewServiceConfirmPasswordLbl.Text" xml:space="preserve">
+    <value>Confirm Passcode:</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordLbl.Name" xml:space="preserve">
+    <value>CreateNewServiceConfirmPasswordLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceConfirmPasswordLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CreateNewServicePasswordInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewServicePasswordInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 267</value>
+  </data>
+  <data name="CreateNewServicePasswordInput.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="CreateNewServicePasswordInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 35</value>
+  </data>
+  <data name="CreateNewServicePasswordInput.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordInput.Name" xml:space="preserve">
+    <value>CreateNewServicePasswordInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordInput.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordInput.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 267</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 29</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CreateNewServicePasswordLbl.Text" xml:space="preserve">
+    <value>Password (6+ digits):</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordLbl.Name" xml:space="preserve">
+    <value>CreateNewServicePasswordLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePasswordLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateNewServiceNameInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewServiceNameInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 215</value>
+  </data>
+  <data name="CreateNewServiceNameInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 35</value>
+  </data>
+  <data name="CreateNewServiceNameInput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameInput.Name" xml:space="preserve">
+    <value>CreateNewServiceNameInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameInput.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameInput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 215</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 29</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CreateNewServiceNameLbl.Text" xml:space="preserve">
+    <value>Zoo Name: </value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameLbl.Name" xml:space="preserve">
+    <value>CreateNewServiceNameLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceNameLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 130</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 70</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.Text" xml:space="preserve">
+    <value>Please provide the following information:</value>
+  </data>
+  <data name="CreateNewServicePromptLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePromptLbl.Name" xml:space="preserve">
+    <value>CreateNewServicePromptLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePromptLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePromptLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServicePromptLbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, -1</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 130</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.Text" xml:space="preserve">
+    <value>Create a New Zoo Management Service!</value>
+  </data>
+  <data name="CreateNewServiceTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceTitleLbl.Name" xml:space="preserve">
+    <value>CreateNewServiceTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceTitleLbl.Parent" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewServiceTitleLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CreateNewService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CreateNewService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 575</value>
+  </data>
+  <data name="CreateNewService.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CreateNewService.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateNewService.Name" xml:space="preserve">
+    <value>CreateNewService</value>
+  </data>
+  <data name="&gt;&gt;CreateNewService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateNewService.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DashboardExportServiceBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DashboardExportServiceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="DashboardExportServiceBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardExportServiceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 313</value>
+  </data>
+  <data name="DashboardExportServiceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="DashboardExportServiceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="DashboardExportServiceBtn.Text" xml:space="preserve">
+    <value>Export Service</value>
+  </data>
+  <data name="&gt;&gt;DashboardExportServiceBtn.Name" xml:space="preserve">
+    <value>DashboardExportServiceBtn</value>
+  </data>
+  <data name="&gt;&gt;DashboardExportServiceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardExportServiceBtn.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardExportServiceBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 313</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="DashboardManageVisitorsBtn.Text" xml:space="preserve">
+    <value>Manage Visitors</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageVisitorsBtn.Name" xml:space="preserve">
+    <value>DashboardManageVisitorsBtn</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageVisitorsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageVisitorsBtn.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageVisitorsBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DashboardTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="DashboardTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1</value>
+  </data>
+  <data name="DashboardTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 110</value>
+  </data>
+  <data name="DashboardTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DashboardTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;DashboardTitleLbl.Name" xml:space="preserve">
+    <value>DashboardTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;DashboardTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardTitleLbl.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardTitleLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DashboardLogOutBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DashboardLogOutBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="DashboardLogOutBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardLogOutBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 427</value>
+  </data>
+  <data name="DashboardLogOutBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="DashboardLogOutBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="DashboardLogOutBtn.Text" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="&gt;&gt;DashboardLogOutBtn.Name" xml:space="preserve">
+    <value>DashboardLogOutBtn</value>
+  </data>
+  <data name="&gt;&gt;DashboardLogOutBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardLogOutBtn.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardLogOutBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 202</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="DashboardManagePasswordsBtn.Text" xml:space="preserve">
+    <value>Manage Passwords</value>
+  </data>
+  <data name="&gt;&gt;DashboardManagePasswordsBtn.Name" xml:space="preserve">
+    <value>DashboardManagePasswordsBtn</value>
+  </data>
+  <data name="&gt;&gt;DashboardManagePasswordsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardManagePasswordsBtn.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardManagePasswordsBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 202</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="DashboardManageHabitatsBtn.Text" xml:space="preserve">
+    <value>Manage Habitats</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageHabitatsBtn.Name" xml:space="preserve">
+    <value>DashboardManageHabitatsBtn</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageHabitatsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageHabitatsBtn.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardManageHabitatsBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DashboardPromptLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="DashboardPromptLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DashboardPromptLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 108</value>
+  </data>
+  <data name="DashboardPromptLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 70</value>
+  </data>
+  <data name="DashboardPromptLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="DashboardPromptLbl.Text" xml:space="preserve">
+    <value>What would you like to do today?</value>
+  </data>
+  <data name="DashboardPromptLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;DashboardPromptLbl.Name" xml:space="preserve">
+    <value>DashboardPromptLbl</value>
+  </data>
+  <data name="&gt;&gt;DashboardPromptLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DashboardPromptLbl.Parent" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;DashboardPromptLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Dashboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Dashboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 535</value>
+  </data>
+  <data name="Dashboard.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Dashboard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Dashboard.Name" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;Dashboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Dashboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Dashboard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LoginBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LoginBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="LoginBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoginBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 256</value>
+  </data>
+  <data name="LoginBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="LoginBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LoginBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;LoginBackBtn.Name" xml:space="preserve">
+    <value>LoginBackBtn</value>
+  </data>
+  <data name="&gt;&gt;LoginBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginBackBtn.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginBackBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LoginTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="LoginTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoginTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="LoginTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 107</value>
+  </data>
+  <data name="LoginTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LoginTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LoginTitleLbl.Name" xml:space="preserve">
+    <value>LoginTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;LoginTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginTitleLbl.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginTitleLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoginBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LoginBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="LoginBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoginBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 256</value>
+  </data>
+  <data name="LoginBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="LoginBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LoginBtn.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginBtn.Name" xml:space="preserve">
+    <value>LoginBtn</value>
+  </data>
+  <data name="&gt;&gt;LoginBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginBtn.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LoginOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="LoginOutputLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoginOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 178</value>
+  </data>
+  <data name="LoginOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 66</value>
+  </data>
+  <data name="LoginOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LoginOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LoginOutputLbl.Name" xml:space="preserve">
+    <value>LoginOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;LoginOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginOutputLbl.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginOutputLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LoginPasswordInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="LoginPasswordInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 131</value>
+  </data>
+  <data name="LoginPasswordInput.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="LoginPasswordInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 35</value>
+  </data>
+  <data name="LoginPasswordInput.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordInput.Name" xml:space="preserve">
+    <value>LoginPasswordInput</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordInput.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordInput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LoginPasswordLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LoginPasswordLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="LoginPasswordLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoginPasswordLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 131</value>
+  </data>
+  <data name="LoginPasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 29</value>
+  </data>
+  <data name="LoginPasswordLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LoginPasswordLbl.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordLbl.Name" xml:space="preserve">
+    <value>LoginPasswordLbl</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordLbl.Parent" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;LoginPasswordLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 369</value>
+  </data>
+  <data name="Login.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Login.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Login.Name" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;Login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Login.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Login.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 95</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 70</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.Text" xml:space="preserve">
+    <value>Here are all the passwords configured for this zoo:</value>
+  </data>
+  <data name="ManagePasswordsPromptLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsPromptLbl.Name" xml:space="preserve">
+    <value>ManagePasswordsPromptLbl</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsPromptLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsPromptLbl.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsPromptLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 508</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ManagePasswordsBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsBackBtn.Name" xml:space="preserve">
+    <value>ManagePasswordsBackBtn</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsBackBtn.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsBackBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 394</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ManagePasswordsRemovePasscodesBtn.Text" xml:space="preserve">
+    <value>Remove Passwords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsRemovePasscodesBtn.Name" xml:space="preserve">
+    <value>ManagePasswordsRemovePasscodesBtn</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsRemovePasscodesBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsRemovePasscodesBtn.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsRemovePasscodesBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 394</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ManagePasswordsAddPasscodesBtn.Text" xml:space="preserve">
+    <value>Add Passwords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsAddPasscodesBtn.Name" xml:space="preserve">
+    <value>ManagePasswordsAddPasscodesBtn</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsAddPasscodesBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsAddPasscodesBtn.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsAddPasscodesBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ManagePasswordsListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="ManagePasswordsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ManagePasswordsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 177</value>
+  </data>
+  <data name="ManagePasswordsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 193</value>
+  </data>
+  <data name="ManagePasswordsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsListBox.Name" xml:space="preserve">
+    <value>ManagePasswordsListBox</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsListBox.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsListBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 108</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.Text" xml:space="preserve">
+    <value>Manage Passwords</value>
+  </data>
+  <data name="ManagePasswordsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsTitleLbl.Name" xml:space="preserve">
+    <value>ManagePasswordsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsTitleLbl.Parent" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswordsTitleLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ManagePasswords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ManagePasswords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 625</value>
+  </data>
+  <data name="ManagePasswords.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ManagePasswords.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswords.Name" xml:space="preserve">
+    <value>ManagePasswords</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswords.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ManagePasswords.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 508</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="ManageHabitatsEditAnimalBtn.Text" xml:space="preserve">
+    <value>Edit Animal</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsEditAnimalBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsEditAnimalBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsEditAnimalBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsEditAnimalBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsEditAnimalBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 724</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="ManageHabitatsBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsBackBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsBackBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsBackBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsBackBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 628</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1141, 70</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ManageHabitatsOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsOutputLbl.Name" xml:space="preserve">
+    <value>ManageHabitatsOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsOutputLbl.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsOutputLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 508</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ManageHabitatsTotalWeightBtn.Text" xml:space="preserve">
+    <value>Total Weight</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsTotalWeightBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsTotalWeightBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsTotalWeightBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsTotalWeightBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsTotalWeightBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 508</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ManageHabitatsAvgAgeBtn.Text" xml:space="preserve">
+    <value>Average Age</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAvgAgeBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsAvgAgeBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAvgAgeBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAvgAgeBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAvgAgeBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>874, 508</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="ManageHabitatsFeedAllBtn.Text" xml:space="preserve">
+    <value>Feed All Animals</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsFeedAllBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsFeedAllBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsFeedAllBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsFeedAllBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsFeedAllBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>874, 394</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ManageHabitatsRemoveAnimalsBtn.Text" xml:space="preserve">
+    <value>Remove Animals</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveAnimalsBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsRemoveAnimalsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveAnimalsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveAnimalsBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveAnimalsBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 394</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ManageHabitatsAddAnimalsBtn.Text" xml:space="preserve">
+    <value>Add Animals</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddAnimalsBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsAddAnimalsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddAnimalsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddAnimalsBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddAnimalsBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 176</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 193</value>
+  </data>
+  <data name="ManageHabitatsAnimalsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsListBox.Name" xml:space="preserve">
+    <value>ManageHabitatsAnimalsListBox</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsListBox.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsListBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 96</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 70</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.Text" xml:space="preserve">
+    <value>Here are all the animals living in the selected habitat:</value>
+  </data>
+  <data name="ManageHabitatsAnimalsPromptLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsPromptLbl.Name" xml:space="preserve">
+    <value>ManageHabitatsAnimalsPromptLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsPromptLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsPromptLbl.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsPromptLbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 3</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 108</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.Text" xml:space="preserve">
+    <value>Manage Animals</value>
+  </data>
+  <data name="ManageHabitatsAnimalsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsTitleLbl.Name" xml:space="preserve">
+    <value>ManageHabitatsAnimalsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsTitleLbl.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAnimalsTitleLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 394</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ManageHabitatsRemoveHabitatsBtn.Text" xml:space="preserve">
+    <value>Remove Habitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveHabitatsBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsRemoveHabitatsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveHabitatsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveHabitatsBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsRemoveHabitatsBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 394</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ManageHabitatsAddHabitatsBtn.Text" xml:space="preserve">
+    <value>Add Habitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddHabitatsBtn.Name" xml:space="preserve">
+    <value>ManageHabitatsAddHabitatsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddHabitatsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddHabitatsBtn.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsAddHabitatsBtn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 176</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 193</value>
+  </data>
+  <data name="ManageHabitatsHabitatsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsListBox.Name" xml:space="preserve">
+    <value>ManageHabitatsHabitatsListBox</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsListBox.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsListBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 70</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.Text" xml:space="preserve">
+    <value>Here are all the habitats configured for this zoo:</value>
+  </data>
+  <data name="ManageHabitatsHabitatsPromptLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsPromptLbl.Name" xml:space="preserve">
+    <value>ManageHabitatsHabitatsPromptLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsPromptLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsPromptLbl.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsPromptLbl.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>567, 105</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.Text" xml:space="preserve">
+    <value>Manage Habitats</value>
+  </data>
+  <data name="ManageHabitatsHabitatsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsTitleLbl.Name" xml:space="preserve">
+    <value>ManageHabitatsHabitatsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsTitleLbl.Parent" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitatsHabitatsTitleLbl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ManageHabitats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ManageHabitats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1150, 845</value>
+  </data>
+  <data name="ManageHabitats.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ManageHabitats.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitats.Name" xml:space="preserve">
+    <value>ManageHabitats</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitats.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ManageHabitats.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CreateNewAnimalsOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 436</value>
+  </data>
+  <data name="CreateNewAnimalsOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1130, 69</value>
+  </data>
+  <data name="CreateNewAnimalsOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="CreateNewAnimalsOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsOutputLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsOutputLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsOutputLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 582</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 35</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelInput.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelInput.Name" xml:space="preserve">
+    <value>CreateNewAnimalsHungerLevelInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelInput.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelInput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 567</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 61</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.Text" xml:space="preserve">
+    <value>Hunger Level:</value>
+  </data>
+  <data name="CreateNewAnimalsHungerLevelLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsHungerLevelLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsHungerLevelLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CreateNewAnimalsWeightInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsWeightInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 583</value>
+  </data>
+  <data name="CreateNewAnimalsWeightInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 35</value>
+  </data>
+  <data name="CreateNewAnimalsWeightInput.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightInput.Name" xml:space="preserve">
+    <value>CreateNewAnimalsWeightInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightInput.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 567</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 61</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.Text" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="CreateNewAnimalsWeightLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsWeightLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsWeightLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 631</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="CreateNewAnimalsBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBackBtn.Name" xml:space="preserve">
+    <value>CreateNewAnimalsBackBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBackBtn.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBackBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 631</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="CreateNewAnimalsBtn.Text" xml:space="preserve">
+    <value>Create Animal</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBtn.Name" xml:space="preserve">
+    <value>CreateNewAnimalsBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBtn.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateNewAnimalsNameInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsNameInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 529</value>
+  </data>
+  <data name="CreateNewAnimalsNameInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 35</value>
+  </data>
+  <data name="CreateNewAnimalsNameInput.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameInput.Name" xml:space="preserve">
+    <value>CreateNewAnimalsNameInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameInput.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameInput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 508</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 70</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="CreateNewAnimalsNameLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsNameLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsNameLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CreateNewAnimalsAgeInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsAgeInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 529</value>
+  </data>
+  <data name="CreateNewAnimalsAgeInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 35</value>
+  </data>
+  <data name="CreateNewAnimalsAgeInput.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeInput.Name" xml:space="preserve">
+    <value>CreateNewAnimalsAgeInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeInput.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeInput.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 508</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 70</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.Text" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="CreateNewAnimalsAgeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsAgeLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAgeLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 172</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 247</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeListBox.Name" xml:space="preserve">
+    <value>CreateNewAnimalsFoodTypeListBox</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeListBox.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeListBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 172</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 247</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeListBox.Name" xml:space="preserve">
+    <value>CreateNewAnimalsAnimalTypeListBox</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeListBox.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeListBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 111</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 70</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.Text" xml:space="preserve">
+    <value>Food Types:</value>
+  </data>
+  <data name="CreateNewAnimalsFoodTypeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsFoodTypeLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsFoodTypeLbl.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 105</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 70</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.Text" xml:space="preserve">
+    <value>Animal Types:</value>
+  </data>
+  <data name="CreateNewAnimalsAnimalTypeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsAnimalTypeLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsAnimalTypeLbl.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1141, 108</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CreateNewAnimalsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsTitleLbl.Name" xml:space="preserve">
+    <value>CreateNewAnimalsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsTitleLbl.Parent" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimalsTitleLbl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="CreateNewAnimals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CreateNewAnimals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1150, 740</value>
+  </data>
+  <data name="CreateNewAnimals.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="CreateNewAnimals.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimals.Name" xml:space="preserve">
+    <value>CreateNewAnimals</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateNewAnimals.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CreateNewVisitorsOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="CreateNewVisitorsOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 257</value>
+  </data>
+  <data name="CreateNewVisitorsOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 65</value>
+  </data>
+  <data name="CreateNewVisitorsOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="CreateNewVisitorsOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsOutputLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsOutputLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsOutputLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 332</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="CreateNewVisitorsBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBackBtn.Name" xml:space="preserve">
+    <value>CreateNewVisitorsBackBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBackBtn.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBackBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 332</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="CreateNewVisitorsBtn.Text" xml:space="preserve">
+    <value>Create Visitor</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBtn.Name" xml:space="preserve">
+    <value>CreateNewVisitorsBtn</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBtn.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 215</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 35</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberInput.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberInput.Name" xml:space="preserve">
+    <value>CreateNewVisitorsPhoneNumberInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberInput.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberInput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 194</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 70</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.Text" xml:space="preserve">
+    <value>Phone Number:</value>
+  </data>
+  <data name="CreateNewVisitorsPhoneNumberLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsPhoneNumberLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsPhoneNumberLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CreateNewVisitorsEmailInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewVisitorsEmailInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 160</value>
+  </data>
+  <data name="CreateNewVisitorsEmailInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 35</value>
+  </data>
+  <data name="CreateNewVisitorsEmailInput.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailInput.Name" xml:space="preserve">
+    <value>CreateNewVisitorsEmailInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailInput.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailInput.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 139</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 70</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="CreateNewVisitorsEmailLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsEmailLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsEmailLbl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateNewVisitorsAgeInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewVisitorsAgeInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 98</value>
+  </data>
+  <data name="CreateNewVisitorsAgeInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 35</value>
+  </data>
+  <data name="CreateNewVisitorsAgeInput.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeInput.Name" xml:space="preserve">
+    <value>CreateNewVisitorsAgeInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeInput.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeInput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 81</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 70</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.Text" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="CreateNewVisitorsAgeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsAgeLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsAgeLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CreateNewVisitorsNameInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="CreateNewVisitorsNameInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 96</value>
+  </data>
+  <data name="CreateNewVisitorsNameInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 35</value>
+  </data>
+  <data name="CreateNewVisitorsNameInput.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameInput.Name" xml:space="preserve">
+    <value>CreateNewVisitorsNameInput</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameInput.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameInput.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 81</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 70</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="CreateNewVisitorsNameLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsNameLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsNameLbl.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 81</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.Text" xml:space="preserve">
+    <value>Create New Visitor</value>
+  </data>
+  <data name="CreateNewVisitorsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsTitleLbl.Name" xml:space="preserve">
+    <value>CreateNewVisitorsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsTitleLbl.Parent" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitorsTitleLbl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CreateNewVisitors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CreateNewVisitors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 445</value>
+  </data>
+  <data name="CreateNewVisitors.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="CreateNewVisitors.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitors.Name" xml:space="preserve">
+    <value>CreateNewVisitors</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateNewVisitors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 517</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="ManageVisitorsBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsBackBtn.Name" xml:space="preserve">
+    <value>ManageVisitorsBackBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsBackBtn.Parent" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsBackBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 408</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="ManageVisitorsRemoveVisitorsBtn.Text" xml:space="preserve">
+    <value>Remove Visitor</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsRemoveVisitorsBtn.Name" xml:space="preserve">
+    <value>ManageVisitorsRemoveVisitorsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsRemoveVisitorsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsRemoveVisitorsBtn.Parent" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsRemoveVisitorsBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 408</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ManageVisitorsAddVisitorsBtn.Text" xml:space="preserve">
+    <value>Add Visitor</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsAddVisitorsBtn.Name" xml:space="preserve">
+    <value>ManageVisitorsAddVisitorsBtn</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsAddVisitorsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsAddVisitorsBtn.Parent" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsAddVisitorsBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ManageVisitorsListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="ManageVisitorsListBox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ManageVisitorsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ManageVisitorsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 87</value>
+  </data>
+  <data name="ManageVisitorsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 301</value>
+  </data>
+  <data name="ManageVisitorsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsListBox.Name" xml:space="preserve">
+    <value>ManageVisitorsListBox</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsListBox.Parent" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsListBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 81</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.Text" xml:space="preserve">
+    <value>Manage Visitors</value>
+  </data>
+  <data name="ManageVisitorsTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsTitleLbl.Name" xml:space="preserve">
+    <value>ManageVisitorsTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsTitleLbl.Parent" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitorsTitleLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ManageVisitors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ManageVisitors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 620</value>
+  </data>
+  <data name="ManageVisitors.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ManageVisitors.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitors.Name" xml:space="preserve">
+    <value>ManageVisitors</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitors.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ManageVisitors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoadServiceBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LoadServiceBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="LoadServiceBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoadServiceBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 380</value>
+  </data>
+  <data name="LoadServiceBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="LoadServiceBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="LoadServiceBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBackBtn.Name" xml:space="preserve">
+    <value>LoadServiceBackBtn</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBackBtn.Parent" xml:space="preserve">
+    <value>LoadService</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBackBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LoadServiceBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LoadServiceBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="LoadServiceBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoadServiceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 380</value>
+  </data>
+  <data name="LoadServiceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="LoadServiceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LoadServiceBtn.Text" xml:space="preserve">
+    <value>Load Service</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBtn.Name" xml:space="preserve">
+    <value>LoadServiceBtn</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBtn.Parent" xml:space="preserve">
+    <value>LoadService</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoadServiceListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="LoadServiceListBox.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LoadServiceListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="LoadServiceListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 110</value>
+  </data>
+  <data name="LoadServiceListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 247</value>
+  </data>
+  <data name="LoadServiceListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceListBox.Name" xml:space="preserve">
+    <value>LoadServiceListBox</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceListBox.Parent" xml:space="preserve">
+    <value>LoadService</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceListBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LoadServiceTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="LoadServiceTitleLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoadServiceTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 0</value>
+  </data>
+  <data name="LoadServiceTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 130</value>
+  </data>
+  <data name="LoadServiceTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LoadServiceTitleLbl.Text" xml:space="preserve">
+    <value>Load Service</value>
+  </data>
+  <data name="LoadServiceTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceTitleLbl.Name" xml:space="preserve">
+    <value>LoadServiceTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceTitleLbl.Parent" xml:space="preserve">
+    <value>LoadService</value>
+  </data>
+  <data name="&gt;&gt;LoadServiceTitleLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LoadService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LoadService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 495</value>
+  </data>
+  <data name="LoadService.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;LoadService.Name" xml:space="preserve">
+    <value>LoadService</value>
+  </data>
+  <data name="&gt;&gt;LoadService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoadService.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditAnimalFeedListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="EditAnimalFeedListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="EditAnimalFeedListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 141</value>
+  </data>
+  <data name="EditAnimalFeedListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 247</value>
+  </data>
+  <data name="EditAnimalFeedListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedListBox.Name" xml:space="preserve">
+    <value>EditAnimalFeedListBox</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedListBox.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedListBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 75</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 70</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.Text" xml:space="preserve">
+    <value>Feed Animal:</value>
+  </data>
+  <data name="EditAnimalFeedAnimalLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedAnimalLbl.Name" xml:space="preserve">
+    <value>EditAnimalFeedAnimalLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedAnimalLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedAnimalLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedAnimalLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EditAnimalGreetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EditAnimalGreetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalGreetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalGreetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 581</value>
+  </data>
+  <data name="EditAnimalGreetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="EditAnimalGreetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="EditAnimalGreetBtn.Text" xml:space="preserve">
+    <value>Greet</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalGreetBtn.Name" xml:space="preserve">
+    <value>EditAnimalGreetBtn</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalGreetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalGreetBtn.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalGreetBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EditAnimalBackBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EditAnimalBackBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalBackBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalBackBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 581</value>
+  </data>
+  <data name="EditAnimalBackBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="EditAnimalBackBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="EditAnimalBackBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBackBtn.Name" xml:space="preserve">
+    <value>EditAnimalBackBtn</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBackBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBackBtn.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBackBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EditAnimalOutputLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 12pt</value>
+  </data>
+  <data name="EditAnimalOutputLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 400</value>
+  </data>
+  <data name="EditAnimalOutputLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1137, 62</value>
+  </data>
+  <data name="EditAnimalOutputLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="EditAnimalOutputLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalOutputLbl.Name" xml:space="preserve">
+    <value>EditAnimalOutputLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalOutputLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalOutputLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalOutputLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EditAnimalTitleLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 20pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalTitleLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="EditAnimalTitleLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1130, 81</value>
+  </data>
+  <data name="EditAnimalTitleLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="EditAnimalTitleLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalTitleLbl.Name" xml:space="preserve">
+    <value>EditAnimalTitleLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalTitleLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalTitleLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalTitleLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EditAnimalFeedBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EditAnimalFeedBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalFeedBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalFeedBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 473</value>
+  </data>
+  <data name="EditAnimalFeedBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="EditAnimalFeedBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="EditAnimalFeedBtn.Text" xml:space="preserve">
+    <value>Feed</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedBtn.Name" xml:space="preserve">
+    <value>EditAnimalFeedBtn</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedBtn.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalFeedBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EditAnimalWeightInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="EditAnimalWeightInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 525</value>
+  </data>
+  <data name="EditAnimalWeightInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="EditAnimalWeightInput.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightInput.Name" xml:space="preserve">
+    <value>EditAnimalWeightInput</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightInput.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightInput.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EditAnimalWeightLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalWeightLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalWeightLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 517</value>
+  </data>
+  <data name="EditAnimalWeightLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 52</value>
+  </data>
+  <data name="EditAnimalWeightLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="EditAnimalWeightLbl.Text" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="EditAnimalWeightLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightLbl.Name" xml:space="preserve">
+    <value>EditAnimalWeightLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalWeightLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EditAnimalBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EditAnimalBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 581</value>
+  </data>
+  <data name="EditAnimalBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 87</value>
+  </data>
+  <data name="EditAnimalBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="EditAnimalBtn.Text" xml:space="preserve">
+    <value>Edit Animal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBtn.Name" xml:space="preserve">
+    <value>EditAnimalBtn</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBtn.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EditAnimalHungerLevelInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="EditAnimalHungerLevelInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 479</value>
+  </data>
+  <data name="EditAnimalHungerLevelInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 35</value>
+  </data>
+  <data name="EditAnimalHungerLevelInput.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelInput.Name" xml:space="preserve">
+    <value>EditAnimalHungerLevelInput</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelInput.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelInput.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 470</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 47</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.Text" xml:space="preserve">
+    <value>Hunger Level:</value>
+  </data>
+  <data name="EditAnimalHungerLevelLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelLbl.Name" xml:space="preserve">
+    <value>EditAnimalHungerLevelLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalHungerLevelLbl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="EditAnimalAgeInput.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="EditAnimalAgeInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 479</value>
+  </data>
+  <data name="EditAnimalAgeInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 35</value>
+  </data>
+  <data name="EditAnimalAgeInput.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeInput.Name" xml:space="preserve">
+    <value>EditAnimalAgeInput</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeInput.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeInput.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="EditAnimalAgeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 12pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalAgeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalAgeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 462</value>
+  </data>
+  <data name="EditAnimalAgeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 70</value>
+  </data>
+  <data name="EditAnimalAgeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="EditAnimalAgeLbl.Text" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="EditAnimalAgeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeLbl.Name" xml:space="preserve">
+    <value>EditAnimalAgeLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalAgeLbl.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="EditAnimalDietListBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 12pt</value>
+  </data>
+  <data name="EditAnimalDietListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="EditAnimalDietListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 141</value>
+  </data>
+  <data name="EditAnimalDietListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 247</value>
+  </data>
+  <data name="EditAnimalDietListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalDietListBox.Name" xml:space="preserve">
+    <value>EditAnimalDietListBox</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalDietListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalDietListBox.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalDietListBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="EditAnimalLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Georgia, 14pt, style=Bold</value>
+  </data>
+  <data name="EditAnimalLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditAnimalLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 75</value>
+  </data>
+  <data name="EditAnimalLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 70</value>
+  </data>
+  <data name="EditAnimalLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="EditAnimalLbl.Text" xml:space="preserve">
+    <value>Edit Animal:</value>
+  </data>
+  <data name="EditAnimalLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalLbl.Name" xml:space="preserve">
+    <value>EditAnimalLbl</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalLbl.Parent" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimalLbl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="EditAnimal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="EditAnimal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1150, 700</value>
+  </data>
+  <data name="EditAnimal.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="EditAnimal.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EditAnimal.Name" xml:space="preserve">
+    <value>EditAnimal</value>
+  </data>
+  <data name="&gt;&gt;EditAnimal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditAnimal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EditAnimal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1384, 834</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Zoo Management</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ZooManagementForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
