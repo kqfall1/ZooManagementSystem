@@ -1,11 +1,30 @@
-I am handing this assingment in several days late because I did not manage my time so well towards the end of this semester. However, I put
-lots of effort into this application, so I would like to submit it even if it gets a 0%. One challenge I experienced in creating this 
-application was implementing polymorphic serialization, which I have not been taught about. I also initially began using System.Text.Json, 
-which does not support polymorphic serialization (if I'm not mistaken), so I eventually had to switch to Newtonsoft.Json. I put a lot of thought
-into the seperation of concerns in regards to my classes and methods. I also made sure that my library classes are not error-prone by making 
-most fields/properties/methods internal and only exposing fields/properties/methods that don't pose any risks. I learned a lot about Windows
-Form applications from this project. All the event-handling methods get messy very quickly! Finally, I also learned more about how to choose
-between fields and properties when designing a class. Properties are generally for pieces of data that are required to instansiate a class 
-(for serialization purposes, because most serializer work better with properties than fields) and are expected to not require much overhead
-to compute (if any computation is done at all). Fields are generally for pieces of data that don't even need to be serialized (although I am
-fond of making some pieces of data for my classes that won't change into fields, such as names and ids. 
+# Zoo Management System
+Zoo Management System is a desktop application built in C# that helps users manage habitats and animals in a zoo environment. Designed with a clean, intuitive interface, it allows for easy organization of habitats, tracking of animal details, and execution of common zoo operations.
+
+Whether you're simulating a zoo for educational purposes or building a foundation for a larger animal management system, this app offers a solid starting point.
+
+## Interface Overview
+
+The application features two main panels:
+
+- Manage Habitats  
+  View and organize zoo habitats such as Grizzly Grove, Aqualand, and Monkey's Pit. Includes tools to add/remove habitats and calculate average age or total weight of animals within each.
+
+- Manage Animals  
+  Display animals within a selected habitat, including name, ID, and age. Users can add, edit, remove, or feed animals with simple button controls.
+
+## Key Features
+
+- Add and remove habitats
+- Add, edit, and remove animals
+- Feed all animals in a habitat
+- Calculate average age and total weight of animals
+- JSON-based data storage for easy portability
+- Simple, responsive GUI built with WinForms
+
+## Tech Stack
+
+- Language: C#
+- Framework: .NET (WinForms)
+- IDE: Visual Studio
+- Data Format: JSON
